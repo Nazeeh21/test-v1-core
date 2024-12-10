@@ -275,7 +275,7 @@ impl YuneVault for Contract {
      * Returns an u64 with 9 decimals of how much underlying asset one vault share represents.
      */
     #[storage(read)]
-    fn total_supply() -> u64{
+    fn total_supply2() -> u64{
         let supply = _total_supply();
         supply
     }

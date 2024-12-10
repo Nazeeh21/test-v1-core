@@ -11,7 +11,7 @@ abi YuneVault {
     fn available() -> u64;
 
     #[storage(read)]
-    fn total_supply() -> u64;
+    fn total_supply2() -> u64;
 
 
     #[storage(read)]
